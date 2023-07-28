@@ -1,0 +1,57 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media(min-width: 1200px) {
+    .hide-on-laptop-desktop {
+        display: none;
+    }
+
+    .container {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 66.66667%;
+        display: flex;
+    }
+}
+@media (min-width: 1023px) and (max-width: 1200px) {
+    .hide-on-tablet-laptop {
+        display: none;
+    }
+    .container {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 83.33333%;
+        display: flex;
+    }
+}
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+    .container {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 91.66667%;
+        display: flex;
+    }
+}
+@media (max-width:739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .container {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 91.66667%;
+        display: flex;
+    }
+
+    .footer__column {
+        width: 100%;
+    }
+
+
+}
+
+
+
+
